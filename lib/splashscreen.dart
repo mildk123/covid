@@ -56,7 +56,8 @@ class _MySplashScreenState extends State<MySplashScreen>
               type: PageTransitionType.fade,
               child: MyBottomBar(),
             ),
-            ModalRoute.withName(""));
+            ModalRoute.withName("")
+        );
         HapticFeedback.lightImpact();
       }
     });

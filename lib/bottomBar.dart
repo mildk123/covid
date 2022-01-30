@@ -34,7 +34,7 @@ class BottomBarState extends State<MyBottomBar> {
   ];
 
   void openDrawerOurs() {
-    _scaffoldKey.currentState?.openEndDrawer();
+    _scaffoldKey.currentState?.openDrawer();
   }
 
   @override
@@ -47,7 +47,7 @@ class BottomBarState extends State<MyBottomBar> {
           return Material(elevation: 20,
             child: Scaffold(
               key: _scaffoldKey,
-              backgroundColor: mainBlack,
+              backgroundColor: mainRed,
               bottomNavigationBar: Container(
 
                   decoration: BoxDecoration(
